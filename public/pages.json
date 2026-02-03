@@ -1,0 +1,48 @@
+{
+    "projects": [
+        {
+            "name": "Rudy1",
+            "icon": "robot",
+            "description": "Cheap DIY CoreXY printer",
+            "repo": "https://github.com/RazorSh4rk/Rudy",
+            "author": "razor",
+            "pages": [
+                {
+                    "title": "index",
+                    "url": "https://raw.githubusercontent.com/RazorSh4rk/Rudy/refs/heads/master/README.md",
+                    "icon": "gear"
+                },
+                {
+                    "title": "sourcing",
+                    "url": "https://raw.githubusercontent.com/RazorSh4rk/Rudy/refs/heads/master/SOURCING_GUIDE.md"
+                },
+                {
+                    "title": "printing",
+                    "url": "https://raw.githubusercontent.com/RazorSh4rk/Rudy/refs/heads/master/PRINTING_GUIDE.md"
+                },
+                {
+                    "title": "toolhead choices",
+                    "url": "https://raw.githubusercontent.com/RazorSh4rk/Rudy/refs/heads/master/TOOLHEAD.md"
+                },
+                {
+                    "title": "assembly",
+                    "url": "https://raw.githubusercontent.com/RazorSh4rk/Rudy/refs/heads/master/build_guide/assembly.md",
+                    "icon": "wrench"
+                }
+            ]            
+        },
+        {
+            "name": "Rudy2",
+            "description": "Cheap DIY scalable CoreXY printer",
+            "repo": "https://github.com/RazorSh4rk/Rudy2",
+            "author": "razor",
+            "pages": [
+                {
+                    "title": "configurator",
+                    "url": "https://razorsh4rk.github.io/Rudy2/",
+                    "embed": "true"
+                }
+            ]
+        }
+    ]
+}
