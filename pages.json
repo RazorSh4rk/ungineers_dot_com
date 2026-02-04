@@ -69,14 +69,13 @@
                     "url": "https://raw.githubusercontent.com/IceChes/Unicross-3/refs/heads/main/README.md",
                     "icon": "book-open-text"
                 },
+                {
+                    "title": "Assembly Guide",
+                    "url": "https://raw.githubusercontent.com/IceChes/Unicross-3/refs/heads/main/Documentation/Assembly%20Manual.pdf".
+                    "icon": "wrench",
+                    "pdf": "true"
+                }
             ]
-        },
-        {
-            "name": "Bitflash Robotics",
-            "icon": "star-four",
-            "description": "Overly complicated combat robotics",
-            "repo": "https://github.com/IceChes/BitflashRobotics",
-            "author": "IceChes",
         }
     ]
 }
