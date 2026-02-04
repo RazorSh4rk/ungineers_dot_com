@@ -40,7 +40,7 @@
                 {
                     "title": "configurator",
                     "url": "https://razorsh4rk.github.io/Rudy2/",
-                    "embed": "true"
+                    "embed": true
                 }
             ]
         }

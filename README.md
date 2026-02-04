@@ -57,6 +57,7 @@ Assorted list of projects by the ungineers crew
       - this is not a redirect url!
     - icon?: phosphoricon selector
     - embed?: if true, display a borderless iframe with the source as the given url instead
+    - pdf?: if true, load the provided url into a pdf reader in the body
 
 ### icons
 

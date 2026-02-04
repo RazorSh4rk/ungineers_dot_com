@@ -2,7 +2,8 @@ export interface Page {
   title: string
   url: string
   icon?: string
-  embed?: string
+  embed?: boolean
+  pdf?: boolean
 }
 
 export interface Project {

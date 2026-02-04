@@ -86,7 +86,7 @@ export function ContentArea({ page }: ContentAreaProps) {
   const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
-    if (page.embed === 'true') {
+    if (page.embed || page.pdf) {
       setLoading(false)
       return
     }
@@ -107,9 +107,9 @@ export function ContentArea({ page }: ContentAreaProps) {
         setError(err.message)
         setLoading(false)
       })
-  }, [page.url, page.embed])
+  }, [page.url, page.embed, page.pdf])
 
-  if (page.embed === 'true') {
+  if (page.embed) {
     return (
       <div className="flex-1 w-full h-full">
         <iframe
@@ -117,6 +117,25 @@ export function ContentArea({ page }: ContentAreaProps) {
           className="w-full h-full border-0"
           title={page.title}
         />
+      </div>
+    )
+  }
+
+  if (page.pdf) {
+    return (
+      <div className="flex-1 w-full h-full">
+        <object
+          data={page.url}
+          type="application/pdf"
+          className="w-full h-full"
+        >
+          <p className="p-8 text-center">
+            Unable to display PDF.{' '}
+            <a href={page.url} target="_blank" rel="noopener noreferrer" className="text-blue-400 underline">
+              Download it here
+            </a>
+          </p>
+        </object>
       </div>
     )
   }
