@@ -43,6 +43,19 @@
                     "embed": true
                 }
             ]
+        },
+        {
+            "name": "Javelin",
+            "icon": "meteor",
+            "description": "Experimental UHF toolhead based on the Vesuvius Lite hotend",
+            "repo": "https://github.com/FFronos/Javelin",
+            "author": "fronos",
+            "pages": [
+                {
+                    "title": "main page",
+                    "url": "https://raw.githubusercontent.com/FFronos/Javelin/refs/heads/main/README.md",
+                }
+            ]
         }
     ]
 }
