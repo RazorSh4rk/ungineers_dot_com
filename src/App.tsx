@@ -12,16 +12,20 @@ function AppContent() {
   const params = useParams<{ author?: string; project?: string; page?: string }>()
 
   useEffect(() => {
-    fetch('/pages.json')
-      .then(res => res.json())
-      .then((data: PagesData) => {
-        setProjects(data.projects)
-        setLoading(false)
-      })
-      .catch(err => {
-        console.error('Failed to load pages.json:', err)
-        setLoading(false)
-      })
+    const timer = setTimeout(() => {
+      fetch('/pages.json')
+        .then(res => res.json())
+        .then((data: PagesData) => {
+          setProjects(data.projects)
+          setLoading(false)
+        })
+        .catch(err => {
+          console.error('Failed to load pages.json:', err)
+          setLoading(false)
+        })
+    }, 3000)
+
+    return () => clearTimeout(timer)
   }, [])
 
   const getCurrentPage = (): CurrentPage => {
@@ -58,8 +62,9 @@ function AppContent() {
 
   if (loading) {
     return (
-      <div className="h-screen flex items-center justify-center text-muted-foreground">
-        Loading...
+      <div className="h-screen flex flex-col items-center justify-center text-muted-foreground">
+        <img src="/UngineerSpin.gif" alt="ungineers" className="w-16" />
+        <p>Loading...</p>
       </div>
     )
   }
