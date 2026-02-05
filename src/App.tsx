@@ -67,13 +67,13 @@ function AppContent() {
   const currentPage = getCurrentPage()
 
   return (
-    <div className="h-screen flex flex-col">
+    <div className="h-screen flex flex-col overflow-hidden ">
       <Header
         projects={projects}
         currentPage={currentPage}
         onNavigate={handleNavigate}
       />
-      <main className="flex-1 flex overflow-hidden">
+      <main className="flex-1 overflow-y-auto">
         {currentPage.type === 'about' ? (
           <AboutPage />
         ) : currentPage.project && currentPage.page ? (
