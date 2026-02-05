@@ -38,7 +38,7 @@ export function ProjectsMenu({ projects, currentPage, onNavigate }: ProjectsMenu
   }
 
   return (
-    <div className="absolute right-0 top-full mt-2 bg-background border border-border rounded-md min-w-64 max-h-96 overflow-y-auto">
+    <div className="absolute right-0 top-full mt-2 bg-background border border-border rounded-md min-w-64 max-h-[calc(100vh-7rem)] overflow-y-auto">
       {Object.entries(projectsByAuthor).map(([author, authorProjects]) => (
         <div key={author}>
           <button

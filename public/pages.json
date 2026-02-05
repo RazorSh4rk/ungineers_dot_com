@@ -2,7 +2,7 @@
     "projects": [
         {
             "name": "Rudy1",
-            "icon": "robot",
+            "icon": "washing-machine",
             "description": "Cheap DIY CoreXY printer",
             "repo": "https://github.com/RazorSh4rk/Rudy",
             "author": "razor",
@@ -10,19 +10,22 @@
                 {
                     "title": "index",
                     "url": "https://raw.githubusercontent.com/RazorSh4rk/Rudy/refs/heads/master/README.md",
-                    "icon": "gear"
+                    "icon": "book-open"
                 },
                 {
                     "title": "sourcing",
-                    "url": "https://raw.githubusercontent.com/RazorSh4rk/Rudy/refs/heads/master/SOURCING_GUIDE.md"
+                    "url": "https://raw.githubusercontent.com/RazorSh4rk/Rudy/refs/heads/master/SOURCING_GUIDE.md",
+                    "icon": "shopping-cart"
                 },
                 {
                     "title": "printing",
-                    "url": "https://raw.githubusercontent.com/RazorSh4rk/Rudy/refs/heads/master/PRINTING_GUIDE.md"
+                    "url": "https://raw.githubusercontent.com/RazorSh4rk/Rudy/refs/heads/master/PRINTING_GUIDE.md",
+                    "icon": "printer"
                 },
                 {
                     "title": "toolhead choices",
-                    "url": "https://raw.githubusercontent.com/RazorSh4rk/Rudy/refs/heads/master/TOOLHEAD.md"
+                    "url": "https://raw.githubusercontent.com/RazorSh4rk/Rudy/refs/heads/master/TOOLHEAD.md",
+                    "icon": "toolbox"
                 },
                 {
                     "title": "assembly",
@@ -33,6 +36,7 @@
         },
         {
             "name": "Rudy2",
+            "icon": "washing-machine",
             "description": "Cheap DIY scalable CoreXY printer",
             "repo": "https://github.com/RazorSh4rk/Rudy2",
             "author": "razor",
@@ -40,7 +44,8 @@
                 {
                     "title": "configurator",
                     "url": "https://razorsh4rk.github.io/Rudy2/",
-                    "embed": true
+                    "embed": true,
+                    "icon": "text-indent"
                 }
             ]
         },
@@ -62,18 +67,45 @@
             "icon": "plus",
             "description": "Reliable, accessible cross-gantry 3D printer",
             "repo": "https://github.com/IceChes/Unicross-3",
-            "author": "IceChes",
+            "author": "iceches",
             "pages": [
                 {
-                    "title": "About",
+                    "title": "about the project",
                     "url": "https://raw.githubusercontent.com/IceChes/Unicross-3/refs/heads/main/README.md",
-                    "icon": "book-open-text"
+                    "icon": "books"
                 },
                 {
-                    "title": "Assembly Guide",
+                    "title": "assembly guide",
                     "url": "https://raw.githubusercontent.com/IceChes/Unicross-3/refs/heads/main/Documentation/Assembly%20Manual.pdf",
                     "icon": "wrench",
                     "pdf": "true"
+                }
+            ]
+        },
+        {
+            "name": "Bitflash Robotics",
+            "icon": "warning",
+            "description": "Overly complicated combat robotics",
+            "repo": "https://github.com/IceChes/BitflashRobotics",
+            "author": "iceches",
+            "pages": [
+                {
+                    "title": "repo's readme",
+                    "url": "https://raw.githubusercontent.com/IceChes/BitflashRobotics/refs/heads/main/README.md",
+                    "icon": "books"
+                }
+            ]
+        },
+        {
+            "name": "Driver40",
+            "description": "Utraportable split ortholinear keyboard",
+            "repo": "https://github.com/typewatch/driver40",
+            "author": "typewatch",
+            "pages": [
+                {
+                    "title": "readme",
+                    "url": "https://raw.githubusercontent.com/typewatch/typewatch.github.io/refs/heads/main/assets/ungineersdotcomfiles/driver40/readme.md",
+                    "icon": "books"
                 }
             ]
         }

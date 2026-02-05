@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Generated gallery files
+public/gallery
+public/gallery-manifest.json
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
