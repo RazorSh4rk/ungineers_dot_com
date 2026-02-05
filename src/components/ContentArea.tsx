@@ -153,7 +153,7 @@ export function ContentArea({ page }: ContentAreaProps) {
   const githubInfo = extractGitHubInfo(page.url)
 
   return (
-    <div className="flex-1 overflow-y-auto overflow-x-hidden px-8 pb-8 pt-0 max-w-4xl mx-auto w-full">
+    <div className="flex-1 overflow-y-auto overflow-x-hidden p-8 max-w-4xl mx-auto w-full">
       <div className="prose">
         <ReactMarkdown
           remarkPlugins={[remarkGfm, remarkBreaks]}
