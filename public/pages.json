@@ -57,8 +57,14 @@
             "author": "fronos",
             "pages": [
                 {
-                    "title": "main page",
-                    "url": "https://raw.githubusercontent.com/FFronos/Javelin/refs/heads/main/README.md"
+                    "title": "about javelin",
+                    "url": "https://raw.githubusercontent.com/FFronos/Javelin/refs/heads/main/README.md",
+                    "icon": "book-open-text"
+                },
+                {
+                    "title": "duct documentation",
+                    "url": "https://raw.githubusercontent.com/FFronos/Javelin/refs/heads/main/Docs/Ductwork.md",
+                    "icon": "book-open"
                 }
             ]
         },
