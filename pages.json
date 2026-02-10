@@ -42,6 +42,11 @@
             "author": "razor",
             "pages": [
                 {
+                    "title": "index",
+                    "url": "https://raw.githubusercontent.com/RazorSh4rk/Rudy2/refs/heads/master/README.md",
+                    "icon": "book-open"
+                },
+                {
                     "title": "configurator",
                     "url": "https://razorsh4rk.github.io/Rudy2/",
                     "embed": true,
