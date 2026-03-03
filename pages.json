@@ -133,11 +133,10 @@
                     "icon": "book-open"
                 },
                 {
-                    "title": "download",
-                    "url": "https://github.com/Katzenbastler/prostep/releases/download/main/prostep.exe",
+                    "title": "download v3 beta and raw ressources",
+                    "url": "https://github.com/Katzenbastler/prostep/releases/tag/main",
                     "icon": "download"
                 }
             ]
         }
     ]
-}
