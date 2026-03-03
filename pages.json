@@ -119,6 +119,25 @@
                     "icon": "books"
                 }
             ]
+        },
+        {
+            "name": "ProStep",
+            "icon": "cube",
+            "description": "A simple, fully offline STL to STEP converter designed for local use. Beta V3 — currently under active development and may still contain bugs.",
+            "repo": "https://github.com/Katzenbastler/prostep",
+            "author": "Katzenbastler",
+            "pages": [
+                {
+                    "title": "index",
+                    "url": "https://raw.githubusercontent.com/Katzenbastler/prostep/refs/heads/main/README.md",
+                    "icon": "book-open"
+                },
+                {
+                    "title": "download",
+                    "url": "https://github.com/Katzenbastler/prostep/releases/download/main/prostep.exe",
+                    "icon": "download"
+                }
+            ]
         }
     ]
 }
