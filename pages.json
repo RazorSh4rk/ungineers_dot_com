@@ -32,7 +32,7 @@
                     "url": "https://raw.githubusercontent.com/RazorSh4rk/Rudy/refs/heads/master/build_guide/assembly.md",
                     "icon": "wrench"
                 }
-            ]            
+            ]
         },
         {
             "name": "Rudy2",
@@ -123,7 +123,7 @@
         {
             "name": "ProStep",
             "icon": "cube",
-            "description": "A simple, fully offline STL to STEP converter designed for local use. Beta V3 — currently under active development and may still contain bugs.",
+            "description": "A simple fully offline STL to STEP converter for local use. Beta V3 — still under development and may contain bugs.",
             "repo": "https://github.com/Katzenbastler/prostep",
             "author": "Katzenbastler",
             "pages": [
@@ -133,9 +133,10 @@
                     "icon": "book-open"
                 },
                 {
-                    "title": "download v3 beta and raw ressources",
+                    "title": "download v3 beta and raw resources",
                     "url": "https://github.com/Katzenbastler/prostep/releases/tag/main",
-                    "icon": "download"
+                    "icon": "download",
+                    "external": true
                 }
             ]
         }
