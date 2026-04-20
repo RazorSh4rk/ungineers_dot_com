@@ -115,3 +115,18 @@ body {
   border-top: 1px solid var(--color-border);
   margin: 2em 0;
 }
+
+@keyframes scroll {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-50%); }
+}
+
+.animate-infinite-scroll {
+  animation: scroll 40s linear infinite;
+}
+
+@media (max-width: 768px) {
+  .animate-infinite-scroll {
+    animation-duration: 100s; 
+  }
+}
